@@ -72,12 +72,12 @@ export const GameScreen = ({ userNumber, gameOver, setRounds }) => {
 				<View>
 					<View style={styles.btnInnerCtn}>
 						<PrimaryButton btnFxn={() => nextGuessHandler("greater")}>
-							<Ionicons name="add-sharp" size={44} color="#340604" />{" "}
+							<Ionicons name="add-sharp" size={44} color="#fffff" />
 						</PrimaryButton>
 					</View>
 					<View style={styles.btnInnerCtn}>
 						<PrimaryButton btnFxn={() => nextGuessHandler("lower")}>
-							<Ionicons name="remove" size={44} color="#340604" />
+							<Ionicons name="remove" size={44} color="#fffff" />
 						</PrimaryButton>
 					</View>
 				</View>
